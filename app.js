@@ -4,7 +4,7 @@ const app = express()
 const port = 3000
 
 app.get('/', (req, res) => {
-  res.send('Hello World!/nTesting Node delpoyment on EC2 Ubuntu')
+  res.send('Hello World!<br>Testing Node delpoyment on EC2 Ubuntu')
 })
 
 app.listen(port, () => {
